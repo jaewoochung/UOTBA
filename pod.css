@@ -3,9 +3,13 @@
 	padding-top: 25%;
 }
 
+#barColor {
+	color: white;
+}
+
 body {
 
-	background: url(https://source.unsplash.com/dKeB0-M9iiA);
+	background: url("mic.jpg");
 	background-size: cover;
 	background-position: center;
 	font-family: Josefin;
@@ -27,6 +31,12 @@ hr {
     background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255, 255, 255, 0.75), rgba(255,255,255,0));
 }
 
+
+.lead123 {
+	font-size: 21px;
+	marign-left: 100px;
+}
+
 .uotba {
 	padding-top: 10px;
 	height: 65px;
@@ -41,4 +51,8 @@ hr {
 .linker {
 	color: white;
 	align-content: right;
+}
+
+.barColor {
+	color: white;
 }
