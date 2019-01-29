@@ -10,7 +10,7 @@ body {
   min-height: 55vh;
   background-color: #B0E0E6;
   width: 100%;
-
+  padding-bottom: 50px;
 }
 
 #navbar {
@@ -49,6 +49,7 @@ body {
 
 .project-header {
   text-align: center;
+  color: #4169E1;
 }
 
 #contact {
@@ -109,4 +110,22 @@ body {
 .project-title {
   font-weight: bold;
   text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+}
+
+.col {
+    flex: 50%;
+}
+
+.course-list {
+    margin-left: 150px;
+    text-align: left;
+}
+.right-col {
+    text-align: left;
+    margin-left: 225px;
 }
