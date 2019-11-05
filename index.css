@@ -1,0 +1,117 @@
+/* html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Ubuntu Mono', monospace;
+    height: 100%;
+} */
+html, body {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+footer {
+    text-align: center;
+    line-height: 80px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.placeholder {
+    margin-bottom: 2em;
+}
+
+.bottom {
+    width: 100%;
+    height: 100px;
+    background: #808080;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #ff0000;
+    height: 10px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    padding-left: 25px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.navbar .navbar-nav>li>a {
+	color: black;
+}
+
+.navbar .navbar-brand {
+	color: black;
+}
+
+#contact {
+  padding-top:;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.contact-header {
+  text-align: center;
+  padding-bottom: 2em;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact-details {
+    display: inline-block;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    background-color: #A9A9A9;
+    color: #000;
+    border: 0;
+    font-weight: bold;
+    font-size: 65%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 35px 45px 35px;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-bottom: 100px;
+}
+
+.btn {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.themed-grid-col {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+
+/* ------------------------------------------------ */
